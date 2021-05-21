@@ -34,7 +34,7 @@ if(process.env.NODE_ENV==='development'){
 
 
 const clothModel = require('./models/clothModel')
-app.get("/", async (req, res) => {
+/*app.get("/", async (req, res) => {
     await clothModel.find({}, (err, items) => {
 		if (err) {
 			console.log(err);
@@ -46,7 +46,7 @@ app.get("/", async (req, res) => {
 		}
 	});
 })
-
+*/
 /* Cloth Data */
 
 var storage = multer.diskStorage({
