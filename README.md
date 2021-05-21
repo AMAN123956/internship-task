@@ -24,7 +24,8 @@
 ### 1. /save - save cloth data
 ### 2. /api/cloth/ - get,update,delete cloth
 
-##Approach 
+## Approach 
+# ============================
 ## 1. For Sign in and Sign Up 
 ### Used JWT Token for sign in and sign up.(required fields:email,password)
 ### After successful sign in/sign up a token is returned which need to be present in order to make any changes
