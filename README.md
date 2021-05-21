@@ -1,8 +1,8 @@
 # login-signup
 ## How to Use:
 ### Run following Commands:
-#### 1.git clone 'github url'
-#### 2.cd repo-name
+#### 1.git clone https://github.com/AMAN123956/internship-task.git
+#### 2.cd internship-task
 #### 3.npm install
 #### 4.cd server
 #### 5. node app.js
