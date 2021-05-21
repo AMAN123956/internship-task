@@ -39,9 +39,7 @@ app.get("/", async (req, res) => {
 			res.status(500).send('An error occurred', err);
 		}
         else {
-            console.log(items.length)
-            console.log(items[0].img)
-            console.log(items[0].pid)
+           
 			res.render('index', { items: items });
 		}
 	});
