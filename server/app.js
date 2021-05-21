@@ -20,9 +20,11 @@ app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use("/views", express.static(__dirname + "/views"));
 // Set EJS as templating engine
+app.use("/app/views", express.static(__dirname + "/views"));
+
 app.set("view engine", "ejs");
+
 
 const PORT=process.env.PORT||5000
 
@@ -40,7 +42,7 @@ app.get("/", async (req, res) => {
 		}
         else {
            
-			res.render('index', { items: items });
+			res.render("index", { items: items });
 		}
 	});
 })
